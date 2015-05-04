@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: url('img/header_bg.png') repeat;
+}
+
+ul#nav {
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    display: inline;
+    list-style: none;
+    border-right: 3px solid #0C0C0C;
+    border-left: 3px solid #161616;
+}
+
+#nav li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-style: italic;
+}
+
+#nav li a:hover {
+background: #000;
+    border-radius: 10px;
+    
+
+
+}
+
+
+
+#nav li ul{
+display: none;
+    margin: 0;
+    padding: 0;
+}
+#nav li ul li{}
+#nav li ul li{}
+#nav li ul li{}
