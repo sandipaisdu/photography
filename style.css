@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
-body{
-background: url('img/body_bg.png') repeat;
+
+body {
+    background: url('img/body_bg.png') repeat;
+    font-family: 'Droid Serif', serif;
 }
+
 .header {
     background: url('img/header_bg.png') repeat;
 }
@@ -21,6 +24,7 @@ ul#nav {
     list-style: none;
     border-right: 3px solid #0C0C0C;
     border-left: 3px solid #161616;
+    position: relative;
 }
 
 #nav li a {
@@ -31,20 +35,25 @@ ul#nav {
 }
 
 #nav li a:hover {
-background: #000;
+    background: #000;
     border-radius: 10px;
-    
-
-
+}
+.search_bar{
+position: relative;
+}
+input#search {
+  padding: 10px;
+  margin-top: 5px;
+  width: 280px;
+  border-radius: 10px;
+    border: none;
+    text-align: center;
 }
 
-
-
-#nav li ul{
-display: none;
-    margin: 0;
-    padding: 0;
+.search_icon{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 12px;
+  left: 25px;
 }
-#nav li ul li{}
-#nav li ul li{}
-#nav li ul li{}
