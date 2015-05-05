@@ -6,6 +6,7 @@
 body {
     background: url('img/body_bg.png') repeat;
     font-family: 'Droid Serif', serif;
+    color: #fff;
 }
 
 .header {
@@ -56,4 +57,31 @@ input#search {
   height: 30px;
   top: 12px;
   left: 25px;
+        border: none !important;
+}
+
+
+/*Image Section*/
+img{
+max-width: 100%;
+    max-height: 100%;
+    border: 5px solid #ddd;
+}
+.right_side, .left_side, .middle_side{
+
+padding-right: 0px !important;
+    padding-left: 5px !important;
+}
+
+.up_1{
+position: relative;
+    height: 400px;
+}
+.img_icon{
+width: 40px;
+    height: 40px;
+    position: absolute;
+    border: none !important;
+    left: 50%;
+    top: 50%;
 }
